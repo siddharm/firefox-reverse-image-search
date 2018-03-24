@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "context menu google image search",
+    "description": "Searches the selected image on Google Images",
+    "version": "1.0",
+    "icons":{
+        "128": "icons/icon.png"
+    },
+    "permissions": ["contextMenus"],
+    "background":{
+        "scripts": ["background.js"]
+    }
+}
